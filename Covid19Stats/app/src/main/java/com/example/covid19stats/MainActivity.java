@@ -37,7 +37,6 @@ public class MainActivity extends AppCompatActivity {
 
         // Set button click listeners after login
         btnCases.setOnClickListener(v -> loadFragment(new CasesFragment(), true));
-        btnDeaths.setOnClickListener(v -> loadFragment(new DeathsFragment(), true));
         btnSummary.setOnClickListener(v -> loadFragment(new SummaryFragment(), true));
         btnPrevention.setOnClickListener(v -> loadFragment(new PreventionFragment(), true));
         btnSymptoms.setOnClickListener(v -> loadFragment(new SymptomsFragment(), true));
